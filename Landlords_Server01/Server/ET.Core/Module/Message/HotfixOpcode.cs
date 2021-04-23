@@ -79,6 +79,15 @@ namespace ETModel
 	[Message(HotfixOpcode.A0006_GetLoginKey_G2R)]
 	public partial class A0006_GetLoginKey_G2R : IResponse {}
 
+//获取用户信息
+	[Message(HotfixOpcode.A1001_GetUserInfo_C2G)]
+	public partial class A1001_GetUserInfo_C2G : IRequest {}
+
+//返回用户信息
+//RpcID,Error,Message是actor RPC消息固有的
+	[Message(HotfixOpcode.A1001_GetUserInfo_G2C)]
+	public partial class A1001_GetUserInfo_G2C : IResponse {}
+
 }
 namespace ETModel
 {
@@ -106,5 +115,7 @@ namespace ETModel
 		 public const ushort A0001_Register_R2C = 10020;
 		 public const ushort A0006_GetLoginKey_R2G = 10021;
 		 public const ushort A0006_GetLoginKey_G2R = 10022;
+		 public const ushort A1001_GetUserInfo_C2G = 10023;
+		 public const ushort A1001_GetUserInfo_G2C = 10024;
 	}
 }
