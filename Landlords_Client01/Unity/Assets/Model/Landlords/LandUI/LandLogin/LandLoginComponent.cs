@@ -51,6 +51,7 @@ namespace ETModel
                 return;
             }
             this.isLogining = true;
+            LandHelper.Login(this.account.text, this.password.text).Coroutine();
         }
 
         public void RegisterBtnOnClick()
@@ -60,8 +61,7 @@ namespace ETModel
                 return;
             }
             this.isRegistering = true;
+            LandHelper.Register(this.account.text, this.password.text).Coroutine();
         }
-
-        
     }
 }
