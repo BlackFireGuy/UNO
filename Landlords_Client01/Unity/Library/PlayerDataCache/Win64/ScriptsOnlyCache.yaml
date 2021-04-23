@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Unity.Editor.dll:
+    - ETEditor.BuildEditor
     Unity.Model.dll:
     - ETModel.Init
     - ReferenceCollector
@@ -48,19 +50,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11196}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11570}
     - Class: 114
-      Script: {instanceID: 12040}
+      Script: {instanceID: 12042}
     - Class: 114
-      Script: {instanceID: 12226}
+      Script: {instanceID: 12228}
     - Class: 114
-      Script: {instanceID: 13694}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 13810}
+      Script: {instanceID: 13816}
     - Class: 114
-      Script: {instanceID: 14006}
+      Script: {instanceID: 14012}
     - Class: 114
-      Script: {instanceID: 14436}
+      Script: {instanceID: 14448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -585,4 +587,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Landlords.unity
-  playerPath: C:/Users/sangxuan/Desktop/Unity.exe
+  playerPath: D:/ET/Repository/UNO/Landlords_Client01/Unity/../Release/Landlords.exe

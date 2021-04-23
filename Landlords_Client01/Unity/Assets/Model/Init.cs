@@ -24,6 +24,8 @@ namespace ETModel
 
 				Game.Scene.AddComponent<GlobalConfigComponent>();
 				Game.Scene.AddComponent<ResourcesComponent>();
+				// 下载ab包
+				await BundleHelper.DownloadBundle();
 
 				ETModel.Game.Scene.GetComponent<ResourcesComponent>().LoadBundle("config.unity3d");
 				Game.Scene.AddComponent<ConfigComponent>();

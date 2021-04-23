@@ -124,6 +124,8 @@ namespace ETHotfix
                 Gamer gamer = self.gamers[seatIndex];
                 self.gamers[seatIndex] = null;
                 self.seats.Remove(id);
+
+                Log.Debug("将从编号"+seatIndex+"座位移除玩家");
                 return gamer;
             }
 

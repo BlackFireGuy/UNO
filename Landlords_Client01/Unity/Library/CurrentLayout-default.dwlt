@@ -509,7 +509,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 503, y: 698.5, z: 0}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 1
-    showSkybox: 0
+    showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -557,11 +557,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 158.11388
+    m_Target: 10
     speed: 2
     m_Value: 10
   m_Ortho:
@@ -1289,9 +1289,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 923b0000
-      m_LastClickedID: 15250
-      m_ExpandedIDs: 68faffff74faffff923b0000943b0000963b0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 40d0ffff5ad0ffff08d1ffff6ad5ffff84d5ffff8ed5ffffa0d6ffffbad6ffff68d7fffff2d8ffff0cd9ffff16d9ffff26daffff40daffff4adaffff5adbffff74dbffff22dcffffdce1fffff8e1ffffaae2ffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1354,20 +1354,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Bundles/Landlords
+    - Assets/Res/Config
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Bundles/Landlords
+  - Assets/Res/Config
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\ET\Repository\UNO\Landlords_Client01\Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c3a0000
-    m_LastClickedID: 14860
-    m_ExpandedIDs: 00000000f8390000fa390000fc390000183a000000ca9a3b
+    m_SelectedIDs: 5c3f0000
+    m_LastClickedID: 16220
+    m_ExpandedIDs: 00000000f8390000fa390000fc390000203a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1426,18 +1426,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000923f0000f0b300000c420000a4410000026601004a5d00004e3d000030490000ec4b0000364d000096460000aa4f0000ee49000032570000ce610000d25a00005a470000baf90000b6f900006a68000088470000545e00001055000082600000de22030052630000d64b0000ba7900000a020000f25900005e470000c0560000d26800003e5a0000fc5c0000365e0000de7c0000085d0000000000004a830000145b0000da5a0000048100006455000094460000fe610000ba56010000aefdff146a0000186a00001c6a0000206a0000246a0000286a00004a6a0000466a0000446a0000964d0000486a00004c6a00000e4c0000b4650000643b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: GlobalProto
+      m_OriginalName: GlobalProto
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15344
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 14}
     m_CreateAssetUtility:
