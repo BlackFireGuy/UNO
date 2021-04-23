@@ -70,6 +70,15 @@ namespace ETModel
 	[Message(HotfixOpcode.A0001_Register_R2C)]
 	public partial class A0001_Register_R2C : IResponse {}
 
+/// <summary>
+/// 斗地主内网消息
+/// </summary>
+	[Message(HotfixOpcode.A0006_GetLoginKey_R2G)]
+	public partial class A0006_GetLoginKey_R2G : IRequest {}
+
+	[Message(HotfixOpcode.A0006_GetLoginKey_G2R)]
+	public partial class A0006_GetLoginKey_G2R : IResponse {}
+
 }
 namespace ETModel
 {
@@ -95,5 +104,7 @@ namespace ETModel
 		 public const ushort A0002_Login_R2C = 10018;
 		 public const ushort A0001_Register_C2R = 10019;
 		 public const ushort A0001_Register_R2C = 10020;
+		 public const ushort A0006_GetLoginKey_R2G = 10021;
+		 public const ushort A0006_GetLoginKey_G2R = 10022;
 	}
 }

@@ -149,3 +149,20 @@ message A0001_Register_R2C // IResponse
 	int32 Error = 91;
 	string Message = 92;
 }
+
+/// <summary>
+/// 斗地主内网消息
+/// </summary>
+message A0006_GetLoginKey_R2G // IRequest
+{
+	int32 RpcId = 90;
+	int64 UserID = 1;
+}
+
+message A0006_GetLoginKey_G2R // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	int64 GateLoginKey = 1;
+}

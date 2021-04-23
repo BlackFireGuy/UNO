@@ -80,7 +80,10 @@ namespace App
 				// 配置管理
 				Game.Scene.AddComponent<ConfigComponent>();
 				Game.Scene.AddComponent<ConsoleComponent>();
-				
+
+				Game.Scene.AddComponent<UserComponent>();
+				Game.Scene.AddComponent<SessionKeyComponent>();
+				Game.Scene.AddComponent<SessionUserComponent>();
 				while (true)
 				{
 					try

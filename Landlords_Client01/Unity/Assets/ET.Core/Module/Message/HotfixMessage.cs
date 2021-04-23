@@ -1803,6 +1803,181 @@ namespace ETModel {
 
   }
 
+  /// <summary>
+  //// &lt;summary>
+  //// 斗地主内网消息
+  //// &lt;/summary>
+  /// </summary>
+  public partial class A0006_GetLoginKey_R2G : pb::IMessage {
+    private static readonly pb::MessageParser<A0006_GetLoginKey_R2G> _parser = new pb::MessageParser<A0006_GetLoginKey_R2G>(() => (A0006_GetLoginKey_R2G)MessagePool.Instance.Fetch(typeof(A0006_GetLoginKey_R2G)));
+    public static pb::MessageParser<A0006_GetLoginKey_R2G> Parser { get { return _parser; } }
+
+    private int rpcId_;
+    public int RpcId {
+      get { return rpcId_; }
+      set {
+        rpcId_ = value;
+      }
+    }
+
+    private long userID_;
+    public long UserID {
+      get { return userID_; }
+      set {
+        userID_ = value;
+      }
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (UserID != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(UserID);
+      }
+      if (RpcId != 0) {
+        output.WriteRawTag(208, 5);
+        output.WriteInt32(RpcId);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (RpcId != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(RpcId);
+      }
+      if (UserID != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UserID);
+      }
+      return size;
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      userID_ = 0;
+      rpcId_ = 0;
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            UserID = input.ReadInt64();
+            break;
+          }
+          case 720: {
+            RpcId = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public partial class A0006_GetLoginKey_G2R : pb::IMessage {
+    private static readonly pb::MessageParser<A0006_GetLoginKey_G2R> _parser = new pb::MessageParser<A0006_GetLoginKey_G2R>(() => (A0006_GetLoginKey_G2R)MessagePool.Instance.Fetch(typeof(A0006_GetLoginKey_G2R)));
+    public static pb::MessageParser<A0006_GetLoginKey_G2R> Parser { get { return _parser; } }
+
+    private int rpcId_;
+    public int RpcId {
+      get { return rpcId_; }
+      set {
+        rpcId_ = value;
+      }
+    }
+
+    private int error_;
+    public int Error {
+      get { return error_; }
+      set {
+        error_ = value;
+      }
+    }
+
+    private string message_ = "";
+    public string Message {
+      get { return message_; }
+      set {
+        message_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    private long gateLoginKey_;
+    public long GateLoginKey {
+      get { return gateLoginKey_; }
+      set {
+        gateLoginKey_ = value;
+      }
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (GateLoginKey != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(GateLoginKey);
+      }
+      if (RpcId != 0) {
+        output.WriteRawTag(208, 5);
+        output.WriteInt32(RpcId);
+      }
+      if (Error != 0) {
+        output.WriteRawTag(216, 5);
+        output.WriteInt32(Error);
+      }
+      if (Message.Length != 0) {
+        output.WriteRawTag(226, 5);
+        output.WriteString(Message);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (RpcId != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(RpcId);
+      }
+      if (Error != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(Error);
+      }
+      if (Message.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Message);
+      }
+      if (GateLoginKey != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(GateLoginKey);
+      }
+      return size;
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      gateLoginKey_ = 0;
+      rpcId_ = 0;
+      error_ = 0;
+      message_ = "";
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            GateLoginKey = input.ReadInt64();
+            break;
+          }
+          case 720: {
+            RpcId = input.ReadInt32();
+            break;
+          }
+          case 728: {
+            Error = input.ReadInt32();
+            break;
+          }
+          case 738: {
+            Message = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   #endregion
 
 }
