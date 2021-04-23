@@ -35,7 +35,7 @@ namespace ETModel
         public Text sex;
         //称号
         public Text title;
-
+        
         public bool isMatching;
 
         public async void Awake()
@@ -51,7 +51,8 @@ namespace ETModel
             email = rc.Get<GameObject>("Email").GetComponent<Text>();
             sex = rc.Get<GameObject>("Sex").GetComponent<Text>();
             title = rc.Get<GameObject>("Title").GetComponent<Text>();
-
+            //匹配进入房间按钮
+            rc.Get<GameObject>("Landlords").GetComponent<Button>().onClick.Add(OnStartMatchLandlords);
             rc.Get<GameObject>("SetUserInfo").GetComponent<Button>().onClick.Add(OnSetUserInfo);
 
             //获取玩家数据
@@ -73,6 +74,34 @@ namespace ETModel
             //...
 
         }
+
+        /// <summary>
+        /// 匹配斗地主
+        /// </summary>
+        private async void OnStartMatchLandlords()
+        {
+            try
+            {
+                //发送开始匹配消息
+                C2G_StartMatch_Req c2G_StartMatch_Req = new C2G_StartMatch_Req();
+                G2C_StartMatch_Back g2C_StartMatch_Ack = (G2C_StartMatch_Back)await SessionComponent.Instance.Session.Call(c2G_StartMatch_Req);
+
+                if (g2C_StartMatch_Ack.Error == ErrorCode.ERR_UserMoneyLessError)
+                {
+                    Log.Error("余额不足");
+                    return;
+                }
+
+                //切换到房间界面
+                UI landRoom = Game.Scene.GetComponent<UIComponent>().Create(LandUIType.LandRoom);
+                Game.Scene.GetComponent<UIComponent>().Remove(LandUIType.LandLobby);
+            }
+            catch (Exception e)
+            {
+                Log.Error(e);
+            }
+        }
+
         public void OnSetUserInfo()
         {
             //加载设置用户信息界面

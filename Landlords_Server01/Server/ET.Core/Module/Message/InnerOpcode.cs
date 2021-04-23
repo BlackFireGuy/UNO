@@ -35,5 +35,7 @@ namespace ETModel
 		 public const ushort G2M_CreateUnit = 1031;
 		 public const ushort M2G_CreateUnit = 1032;
 		 public const ushort G2M_SessionDisconnect = 1033;
+		 public const ushort Actor_MatchSucess_M2G = 1034;
+		 public const ushort EnterMatchs_G2M = 1035;
 	}
 }
