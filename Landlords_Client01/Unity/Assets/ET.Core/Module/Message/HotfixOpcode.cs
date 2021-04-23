@@ -84,9 +84,30 @@ namespace ETModel
 	public partial class A1001_GetUserInfo_C2G : IRequest {}
 
 //返回用户信息
-//RpcID,Error,Message是actor RPC消息固有的
 	[Message(HotfixOpcode.A1001_GetUserInfo_G2C)]
 	public partial class A1001_GetUserInfo_G2C : IResponse {}
+
+//设置用户信息
+	[Message(HotfixOpcode.A1002_SetUserInfo_C2G)]
+	public partial class A1002_SetUserInfo_C2G : IRequest {}
+
+//返回设置用户信息
+	[Message(HotfixOpcode.A1002_SetUserInfo_G2C)]
+	public partial class A1002_SetUserInfo_G2C : IResponse {}
+
+//向realm用户发送上线消息
+	[Message(HotfixOpcode.A0004_PlayerOnline_G2R)]
+	public partial class A0004_PlayerOnline_G2R : IMessage {}
+
+//向realm用户发送下线消息
+	[Message(HotfixOpcode.A0005_PlayerOffline_G2R)]
+	public partial class A0005_PlayerOffline_G2R : IMessage {}
+
+	[Message(HotfixOpcode.A0007_KickOutPlayer_R2G)]
+	public partial class A0007_KickOutPlayer_R2G : IRequest {}
+
+	[Message(HotfixOpcode.A0007_KickOutPlayer_G2R)]
+	public partial class A0007_KickOutPlayer_G2R : IResponse {}
 
 }
 namespace ETModel
@@ -117,5 +138,11 @@ namespace ETModel
 		 public const ushort A0006_GetLoginKey_G2R = 10022;
 		 public const ushort A1001_GetUserInfo_C2G = 10023;
 		 public const ushort A1001_GetUserInfo_G2C = 10024;
+		 public const ushort A1002_SetUserInfo_C2G = 10025;
+		 public const ushort A1002_SetUserInfo_G2C = 10026;
+		 public const ushort A0004_PlayerOnline_G2R = 10027;
+		 public const ushort A0005_PlayerOffline_G2R = 10028;
+		 public const ushort A0007_KickOutPlayer_R2G = 10029;
+		 public const ushort A0007_KickOutPlayer_G2R = 10030;
 	}
 }

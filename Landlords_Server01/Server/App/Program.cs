@@ -84,6 +84,8 @@ namespace App
 				Game.Scene.AddComponent<UserComponent>();
 				Game.Scene.AddComponent<SessionKeyComponent>();
 				Game.Scene.AddComponent<SessionUserComponent>();
+				//斗地主服务端组件
+				Game.Scene.AddComponent<OnlineComponent>();
 				while (true)
 				{
 					try

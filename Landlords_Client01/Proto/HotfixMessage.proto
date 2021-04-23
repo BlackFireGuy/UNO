@@ -174,7 +174,6 @@ message A1001_GetUserInfo_C2G // IRequest
 }
 
 //返回用户信息
-//RpcID,Error,Message是actor RPC消息固有的
 message A1001_GetUserInfo_G2C // IResponse
 {
 	int32 RpcId = 90;
@@ -183,4 +182,61 @@ message A1001_GetUserInfo_G2C // IResponse
 	string UserName = 1;
 	int32 Level = 2;
 	int64 Money = 3;
+	int64 Phone = 4;
+	string Email = 5;
+	string Sex = 6;
+	string Title = 7;
+}
+
+//设置用户信息
+message A1002_SetUserInfo_C2G // IRequest
+{
+	int32 RpcId = 90;
+	int64 Phone = 1;
+	string Email = 2;
+	string Sex = 3;
+	string Title = 4;
+}
+
+//返回设置用户信息
+message A1002_SetUserInfo_G2C // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	string UserName = 1;
+	int32 Level = 2;
+	int64 Money = 3;
+	int64 Phone = 4;
+	string Email = 5;
+	string Sex = 6;
+	string Title = 7;
+}
+
+//向realm用户发送上线消息
+message A0004_PlayerOnline_G2R // IMessage
+{
+	int32 RpcId = 90;
+	int64 UserID = 1;
+	int32 GateAppID = 2;
+}
+
+//向realm用户发送下线消息
+message A0005_PlayerOffline_G2R // IMessage
+{
+	int32 RpcId = 90;
+	int64 UserID = 1;
+}
+
+message	A0007_KickOutPlayer_R2G // IRequest
+{
+	int32 RpcId = 90;
+	int64 UserID = 1;
+}
+
+message	A0007_KickOutPlayer_G2R // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
 }

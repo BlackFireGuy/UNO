@@ -11,3 +11,12 @@
 2021-04-23 12:16:51.0846 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
 2021-04-23 12:23:32.2385 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
 2021-04-23 12:30:20.3742 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-23 12:57:53.8884 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-23 13:05:42.9817 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-23 13:06:43.6471 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-23 13:22:22.0262 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-23 13:28:14.9996 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-23 13:28:31.2994 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154416
+2021-04-23 13:28:31.3147 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154416下线
+2021-04-23 13:28:47.3988 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154416
+2021-04-23 13:28:47.4148 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154416下线

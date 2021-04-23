@@ -3,8 +3,7 @@ using ETModel;
 
 namespace ETHotfix
 {
-    //客户端已知玩家UserID 尝试读取玩家资料
-    //消息内容 玩家的属性 世界位置 任务栏 技能栏 装备栏 背包
+    //已知玩家UserID 尝试读取玩家资料
     [MessageHandler(AppType.Gate)]
     public class A1001_GetUserInfo_Handler : AMRpcHandler<A1001_GetUserInfo_C2G, A1001_GetUserInfo_G2C>
     {
@@ -28,7 +27,10 @@ namespace ETHotfix
                 response.UserName = userInfo.UserName;
                 response.Money = userInfo.Money;
                 response.Level = userInfo.Level;
-
+                response.Phone = userInfo.Phone;
+                response.Email = userInfo.Email;
+                response.Sex = userInfo.Sex;
+                response.Title = userInfo.Title;
 
                 reply();
             }

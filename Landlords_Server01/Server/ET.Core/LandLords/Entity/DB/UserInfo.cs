@@ -26,6 +26,17 @@ namespace ETModel
         //余额
         public long Money { get; set; }
 
+        //电话
+        public long Phone { get; set; }
+
+        //邮箱
+        public string Email { get; set; }
+
+        //性别
+        public string Sex { get; set; }
+
+        //称号
+        public string Title { get; set; }
 
         //上次游戏角色序列 1/2/3
         public int LastPlay { get; set; }
@@ -36,6 +47,9 @@ namespace ETModel
             UserName = name;
             Level = 1;
             Money = 10000;
+            Title = "贫农";
+            Email = "";
+            Sex = "";
             LastPlay = 0;
         }
 
