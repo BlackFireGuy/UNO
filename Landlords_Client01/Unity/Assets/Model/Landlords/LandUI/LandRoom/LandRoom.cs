@@ -111,6 +111,9 @@ namespace ETModel
         {
             //发送准备
             //SessionComponent.Instance.Session.Send(new Actor_GamerReady_Landlords());
+            //发送准备游戏的Actor_GamerReady_Landlords消息
+            //由客户端与网关的连接session发送，再转到Map服务
+            SessionComponent.Instance.Session.Send(new Actor_GamerReady_Landlords());
         }
 
         public override void Dispose()

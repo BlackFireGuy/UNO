@@ -292,3 +292,11 @@ message Actor_GamerExitRoom_Ntt // IActorMessage
     int64 UserID = 1;
 }
 //匹配玩家并进入斗地主游戏房间 <==
+
+//准备游戏消息
+message Actor_GamerReady_Landlords // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 93;
+	int64 UserID = 1;
+}

@@ -140,6 +140,10 @@ namespace ETModel
 	public partial class Actor_GamerExitRoom_Ntt : IActorMessage {}
 
 //匹配玩家并进入斗地主游戏房间 <==
+//准备游戏消息
+	[Message(HotfixOpcode.Actor_GamerReady_Landlords)]
+	public partial class Actor_GamerReady_Landlords : IActorMessage {}
+
 }
 namespace ETModel
 {
@@ -183,5 +187,6 @@ namespace ETModel
 		 public const ushort Actor_LandMatcherReduceOne_NTT = 10036;
 		 public const ushort Actor_GamerEnterRoom_Ntt = 10037;
 		 public const ushort Actor_GamerExitRoom_Ntt = 10038;
+		 public const ushort Actor_GamerReady_Landlords = 10039;
 	}
 }

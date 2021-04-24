@@ -47,6 +47,7 @@ namespace ETHotfix
             }
 
             //添加开始斗地主游戏需要的组件
+            self.AddComponent<GameControllerComponent, RoomConfig>(GateHelper.GetLandlordConfig(RoomLevel.Lv100));
             //...
 
             //开始游戏
@@ -167,5 +168,7 @@ namespace ETHotfix
                 actorProxy.Send(message);
             }
         }
+
+
     }
 }

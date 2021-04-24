@@ -70,3 +70,66 @@
 2021-04-24 10:24:33.2964 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154028匹配成功 更新客户端Actor转发向Gamer
 2021-04-24 10:24:55.5381 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154028
 2021-04-24 10:24:55.5541 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154028下线
+2021-04-24 16:05:43.7602 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-24 16:06:39.4224 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710742 instanceId: 281474976710742
+2021-04-24 16:06:39.4686 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710744 instanceId: 281474976710744
+2021-04-24 16:06:39.4854 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154028进入房间
+2021-04-24 16:06:39.5003 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154028匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:07:02.4273 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710764 instanceId: 281474976710764
+2021-04-24 16:07:02.4434 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154416进入房间
+2021-04-24 16:07:02.4587 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154416匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:07:47.0773 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710786 instanceId: 281474976710786
+2021-04-24 16:07:47.0935 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154119进入房间
+2021-04-24 16:07:47.1093 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154119匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:08:07.6473 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710796 instanceId: 281474976710796
+2021-04-24 16:08:07.6793 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710798 instanceId: 281474976710798
+2021-04-24 16:08:07.6952 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154119进入房间
+2021-04-24 16:08:07.7104 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154119匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:11:39.0148 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154119匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:12:43.7095 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154119
+2021-04-24 16:12:43.7255 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154119下线
+2021-04-24 16:12:46.7199 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710811 instanceId: 281474976710811
+2021-04-24 16:12:46.7355 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154028进入房间
+2021-04-24 16:12:46.7506 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154028匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:13:17.9360 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710831 instanceId: 281474976710831
+2021-04-24 16:13:17.9525 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154416进入房间
+2021-04-24 16:13:17.9672 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154416匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:13:21.1253 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154028匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:13:38.5830 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154416匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:13:47.1244 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154416匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:13:51.4612 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154119匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:13:56.6262 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154416匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:13:58.7324 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154416
+2021-04-24 16:13:58.7484 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154416下线
+2021-04-24 16:13:59.5862 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154028
+2021-04-24 16:13:59.6023 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154028下线
+2021-04-24 16:14:00.9092 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154119
+2021-04-24 16:14:00.9252 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154119下线
+2021-04-24 16:14:11.4366 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-24 16:15:06.2909 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710742 instanceId: 281474976710742
+2021-04-24 16:15:06.3426 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710744 instanceId: 281474976710744
+2021-04-24 16:15:06.3426 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154416进入房间
+2021-04-24 16:15:06.3758 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154416匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:15:28.9918 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710764 instanceId: 281474976710764
+2021-04-24 16:15:29.0070 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154119进入房间
+2021-04-24 16:15:29.0230 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154119匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:15:55.6667 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710786 instanceId: 281474976710786
+2021-04-24 16:15:55.6705 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154028进入房间
+2021-04-24 16:15:55.7016 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154028匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:16:49.5402 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710796 instanceId: 281474976710796
+2021-04-24 16:16:49.5712 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710798 instanceId: 281474976710798
+2021-04-24 16:16:49.5874 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154119进入房间
+2021-04-24 16:16:49.6029 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154119匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:17:04.3999 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154119
+2021-04-24 16:17:04.4153 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154119下线
+2021-04-24 16:17:06.2986 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154028
+2021-04-24 16:17:06.3135 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154028下线
+2021-04-24 16:17:07.2453 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154416
+2021-04-24 16:17:07.2605 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154416下线
+2021-04-24 16:18:43.2411 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-04-24 16:18:54.5650 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710742 instanceId: 281474976710742
+2021-04-24 16:18:54.6242 AllServer 0001 (LocationComponent.cs:62) location add key: 281474976710744 instanceId: 281474976710744
+2021-04-24 16:18:54.6242 AllServer 0001 (LandMatchComponentSystem.cs:108) 玩家101619154028进入房间
+2021-04-24 16:18:54.6548 AllServer 0001 (M2G_MatchSucess_Handler.cs:11) 玩家101619154028匹配成功 更新客户端Actor转发向Gamer
+2021-04-24 16:19:38.5295 AllServer 0001 (SessionUserComponentSystem.cs:14) 销毁User和Session101619154028
+2021-04-24 16:19:38.5455 AllServer 0001 (A0005_PlayerOffline.cs:13) 玩家101619154028下线
