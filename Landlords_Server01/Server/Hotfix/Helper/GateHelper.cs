@@ -31,8 +31,8 @@ namespace ETHotfix
             switch (level)
             {
                 case RoomLevel.Lv100:
-                    config.BasePointPerMath = 100;
-                    config.Mutiples = 1;
+                    config.BasePointPerMatch = 100;
+                    config.Multiples = 1;
                     config.MinThreshold = 100 * 10;
                     break;
             }

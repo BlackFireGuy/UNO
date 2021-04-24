@@ -25,6 +25,7 @@ namespace ETModel
         public readonly Gamer[] gamers = new Gamer[3];
         public static Gamer LocalGamer { get; private set; }
         public readonly GameObject[] GamersPanel = new GameObject[3];
+        private Text multiples;
         public Text prompt;
 
         public void Awake()
@@ -34,6 +35,7 @@ namespace ETModel
             GameObject quitButton = rc.Get<GameObject>("Quit");
             GameObject readyButton = rc.Get<GameObject>("Ready");
             prompt = rc.Get<GameObject>("MatchPrompt").GetComponent<Text>();
+            multiples = rc.Get<GameObject>("Multiples").GetComponent<Text>();
             //添加玩家面板
             GameObject gamersPanel = rc.Get<GameObject>("Gamers");
             this.GamersPanel[0] = gamersPanel.Get<GameObject>("Left");
@@ -115,7 +117,17 @@ namespace ETModel
             //由客户端与网关的连接session发送，再转到Map服务
             SessionComponent.Instance.Session.Send(new Actor_GamerReady_Landlords());
         }
+        public void SetMultiples(int multiples)
+        {
+            this.multiples.gameObject.SetActive(true);
+            this.multiples.text = multiples.ToString();
+        }
 
+        public void ResetMultiples()
+        {
+            this.multiples.gameObject.SetActive(false);
+            this.multiples.text = "1";
+        }
         public override void Dispose()
         {
             if (this.IsDisposed)

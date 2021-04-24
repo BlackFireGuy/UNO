@@ -12,11 +12,11 @@ namespace ETModel
         /// <summary>
         /// 倍率
         /// </summary>
-        public int Mutiples { get; set; }
+        public int Multiples { get; set; }
         /// <summary>
         /// 基础分
         /// </summary>
-        public long BasePointPerMath { get; set; }
+        public long BasePointPerMatch { get; set; }
         /// <summary>
         /// 房间最低门槛
         /// </summary>

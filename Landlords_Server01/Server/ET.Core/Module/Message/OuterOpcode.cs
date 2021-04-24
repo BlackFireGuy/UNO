@@ -58,6 +58,18 @@ namespace ETModel
 	[Message(OuterOpcode.G2C_GetUserInfoInRoom_Back)]
 	public partial class G2C_GetUserInfoInRoom_Back : IResponse {}
 
+//牌类消息
+	[Message(OuterOpcode.Card)]
+	public partial class Card {}
+
+//牌分值消息
+	[Message(OuterOpcode.GamerCardNum)]
+	public partial class GamerCardNum {}
+
+//游戏开始玩家手牌消息
+	[Message(OuterOpcode.Actor_GameStartHandCards_Ntt)]
+	public partial class Actor_GameStartHandCards_Ntt : IActorMessage {}
+
 }
 namespace ETModel
 {
@@ -81,5 +93,8 @@ namespace ETModel
 		 public const ushort M2C_Reload = 116;
 		 public const ushort C2G_GetUserInfoInRoom_Req = 117;
 		 public const ushort G2C_GetUserInfoInRoom_Back = 118;
+		 public const ushort Card = 119;
+		 public const ushort GamerCardNum = 120;
+		 public const ushort Actor_GameStartHandCards_Ntt = 121;
 	}
 }
