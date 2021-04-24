@@ -23,7 +23,8 @@ namespace ETModel
         public readonly Dictionary<long, int> seats = new Dictionary<long, int>();
         public bool Matching { get; set; }
         public readonly Gamer[] gamers = new Gamer[3];
-
+        public static Gamer LocalGamer { get; private set; }
+        public readonly GameObject[] GamersPanel = new GameObject[3];
         public Text prompt;
 
         public void Awake()
@@ -33,6 +34,12 @@ namespace ETModel
             GameObject quitButton = rc.Get<GameObject>("Quit");
             GameObject readyButton = rc.Get<GameObject>("Ready");
             prompt = rc.Get<GameObject>("MatchPrompt").GetComponent<Text>();
+            //添加玩家面板
+            GameObject gamersPanel = rc.Get<GameObject>("Gamers");
+            this.GamersPanel[0] = gamersPanel.Get<GameObject>("Left");
+            this.GamersPanel[1] = gamersPanel.Get<GameObject>("Local");
+            this.GamersPanel[2] = gamersPanel.Get<GameObject>("Right");
+
 
             readyButton.SetActive(false); //默认隐藏
             Matching = true; //进入房间后取消匹配状态
@@ -41,13 +48,18 @@ namespace ETModel
             quitButton.GetComponent<Button>().onClick.Add(OnQuit);
             readyButton.GetComponent<Button>().onClick.Add(OnReady);
 
+            //添加本地玩家
+            Gamer gamer = ETModel.ComponentFactory.Create<Gamer, long>(GamerComponent.Instance.MyUser.UserID);
+            AddGamer(gamer, 1);
+            LocalGamer = gamer;
+
         }
 
         public void AddGamer(Gamer gamer, int index)
         {
             seats.Add(gamer.UserID, index);
             gamers[index] = gamer;
-
+            gamer.AddComponent<LandlordsGamerPanelComponent>().SetPanel(GamersPanel[index]);
             prompt.text = $"一位玩家进入房间，房间人数{seats.Count}";
         }
 
@@ -62,6 +74,17 @@ namespace ETModel
                 gamer.Dispose();
                 prompt.text = $"一位玩家离开房间，房间人数{seats.Count}";
             }
+        }
+
+        public Gamer GetGamer(long id)
+        {
+            int seatIndex = GetGamerSeat(id);
+            if (seatIndex >= 0)
+            {
+                return gamers[seatIndex];
+            }
+
+            return null;
         }
 
         public int GetGamerSeat(long id)
@@ -100,7 +123,7 @@ namespace ETModel
             base.Dispose();
 
             this.Matching = false;
-
+            LocalGamer = null;
             this.seats.Clear();
 
             for (int i = 0; i < this.gamers.Length; i++)

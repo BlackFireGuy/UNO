@@ -1,0 +1,204 @@
+2021-04-24 10:17:19.8797 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 6, "UserID" : NumberLong("101619154416") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:17:40.9292 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 9, "UserID" : NumberLong("101619154416") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:18:00.7893 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 6, "UserID" : NumberLong("101619154416") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:18:46.4221 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 6, "UserID" : NumberLong("101619154119") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:18:46.4522 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 7, "UserID" : NumberLong("101619154119") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:18:46.4721 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 7, "UserID" : NumberLong("101619154416") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:19:06.4919 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 6, "UserID" : NumberLong("101619154028") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:19:06.5298 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 8, "UserID" : NumberLong("101619154028") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:19:06.5457 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 8, "UserID" : NumberLong("101619154028") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:19:06.5457 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 7, "UserID" : NumberLong("101619154416") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:19:06.5617 AllServer 0001 消息没有处理: 117 { "_t" : "C2G_GetUserInfoInRoom_Req", "RpcId" : 8, "UserID" : NumberLong("101619154119") } 
+ OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 85 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 259 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 68 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 3547 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:82:7
+Handle at offset 306 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:24:15.0778 AllServer 0001 not found actor: ETModel.Actor_GamerExitRoom_Ntt 
+ Update at offset 137 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:26:5
+<Post>b__0 at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:38:31
+OnRecvComplete at offset 590 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 1336 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\InnerMessageDispatcher.cs:48:7
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:24:16.0484 AllServer 0001 not found actor: ETModel.Actor_GamerEnterRoom_Ntt 
+ Update at offset 137 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:26:5
+<Post>b__0 at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:38:31
+OnRecvComplete at offset 590 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 1336 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\InnerMessageDispatcher.cs:48:7
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:24:33.2808 AllServer 0001 not found actor: ETModel.Actor_GamerEnterRoom_Ntt 
+ Update at offset 137 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:26:5
+<Post>b__0 at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:38:31
+OnRecvComplete at offset 590 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 1336 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\InnerMessageDispatcher.cs:48:7
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:24:33.2964 AllServer 0001 not found actor: ETModel.Actor_GamerEnterRoom_Ntt 
+ Update at offset 137 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:26:5
+<Post>b__0 at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:38:31
+OnRecvComplete at offset 590 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 1336 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\InnerMessageDispatcher.cs:48:7
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:24:42.8172 AllServer 0001 not found actor: ETModel.Actor_GamerExitRoom_Ntt 
+ Update at offset 137 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:26:5
+<Post>b__0 at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:38:31
+OnRecvComplete at offset 590 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 1336 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\InnerMessageDispatcher.cs:48:7
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+
+2021-04-24 10:24:42.8172 AllServer 0001 not found actor: ETModel.Actor_GamerExitRoom_Ntt 
+ Update at offset 137 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:26:5
+<Post>b__0 at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\OneThreadSynchronizationContext.cs:38:31
+OnRecvComplete at offset 590 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 77 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:120:5
+Run at offset 485 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:154:4
+RunMessage at offset 145 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Module\Message\Session.cs:160:4
+Dispatch at offset 1336 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\Hotfix\Module\Message\InnerMessageDispatcher.cs:48:7
+Error at offset 70 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Log.cs:37:4
+Error at offset 58 in file:line:column D:\ET\Repository\UNO\Landlords_Server01\Server\ET.Core\Base\Logger\NLogAdapter.cs:32:4
+

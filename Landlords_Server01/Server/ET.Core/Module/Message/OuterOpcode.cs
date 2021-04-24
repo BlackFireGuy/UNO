@@ -50,6 +50,14 @@ namespace ETModel
 	[Message(OuterOpcode.M2C_Reload)]
 	public partial class M2C_Reload : IResponse {}
 
+//获取房间内玩家信息请求
+	[Message(OuterOpcode.C2G_GetUserInfoInRoom_Req)]
+	public partial class C2G_GetUserInfoInRoom_Req : IRequest {}
+
+//获取房间内玩家信息返回
+	[Message(OuterOpcode.G2C_GetUserInfoInRoom_Back)]
+	public partial class G2C_GetUserInfoInRoom_Back : IResponse {}
+
 }
 namespace ETModel
 {
@@ -71,5 +79,7 @@ namespace ETModel
 		 public const ushort G2C_Test = 114;
 		 public const ushort C2M_Reload = 115;
 		 public const ushort M2C_Reload = 116;
+		 public const ushort C2G_GetUserInfoInRoom_Req = 117;
+		 public const ushort G2C_GetUserInfoInRoom_Back = 118;
 	}
 }
