@@ -150,3 +150,19 @@ MonoBehaviour:
     gameObject: {fileID: 21300092, guid: d8396ba905ec610429f1c55258169be8, type: 3}
   - key: BuChu
     gameObject: {fileID: 21300110, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Clock
+    gameObject: {fileID: 21300112, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: LJoker
+    gameObject: {fileID: 21300080, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: None
+    gameObject: {fileID: 21300118, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: SJoker
+    gameObject: {fileID: 21300082, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Identity_Farmer
+    gameObject: {fileID: 21300076, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Identity_Landlord
+    gameObject: {fileID: 21300078, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Role1
+    gameObject: {fileID: 21300114, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Role2
+    gameObject: {fileID: 21300116, guid: d8396ba905ec610429f1c55258169be8, type: 3}

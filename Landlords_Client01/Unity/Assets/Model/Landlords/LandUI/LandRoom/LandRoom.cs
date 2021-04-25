@@ -27,6 +27,22 @@ namespace ETModel
         public readonly GameObject[] GamersPanel = new GameObject[3];
         private Text multiples;
         public Text prompt;
+        public LandInteractionComponent interaction;
+        public LandInteractionComponent Interaction
+        {
+            get
+            {
+                if (interaction == null)
+                {
+                    UI uiRoom = this.GetParent<UI>();
+                    UI uiInteraction = LandInteractionFactory.Create(LandUIType.LandInteraction, uiRoom);
+                    interaction = uiInteraction.GetComponent<LandInteractionComponent>();
+                }
+                return interaction;
+            }
+        }
+
+
 
         public void Awake()
         {

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 864273467
+CRC: 1520369233
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -25,4 +25,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_7:
       Name: playcard.unity3d
+      Dependencies: {}
+    Info_8:
+      Name: landinteraction.unity3d
       Dependencies: {}

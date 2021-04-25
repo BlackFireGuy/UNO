@@ -43,7 +43,9 @@ namespace ETModel
         /// 房间中玩家的数量
         /// </summary>
         public int Count { get { return seats.Values.Count; } }
-
+        //暂用地主牌属性
+        public readonly List<Card> LordCards = new List<Card>();
+        public readonly List<Card> LordCache = new List<Card>();
         public override void Dispose()
         {
             if (this.IsDisposed)
