@@ -139,6 +139,13 @@ namespace ETModel
             headPhoto.sprite = headSprite;
             headPhoto.gameObject.SetActive(true);
         }
+        /// <summary>
+        /// 玩家不出
+        /// </summary>
+        public void SetDiscard()
+        {
+            prompt.text = "不出";
+        }
         public override void Dispose()
         {
             if (this.IsDisposed)

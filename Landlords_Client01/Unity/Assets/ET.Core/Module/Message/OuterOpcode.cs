@@ -104,6 +104,9 @@ namespace ETModel
 	[Message(OuterOpcode.Actor_SetMultiples_Ntt)]
 	public partial class Actor_SetMultiples_Ntt : IActorMessage {}
 
+	[Message(OuterOpcode.Actor_GamerPlayCard_Ntt)]
+	public partial class Actor_GamerPlayCard_Ntt : IActorMessage {}
+
 }
 namespace ETModel
 {
@@ -140,5 +143,6 @@ namespace ETModel
 		 public const ushort Actor_SetLandlord_Ntt = 129;
 		 public const ushort Actor_AuthorityPlayCard_Ntt = 130;
 		 public const ushort Actor_SetMultiples_Ntt = 131;
+		 public const ushort Actor_GamerPlayCard_Ntt = 132;
 	}
 }

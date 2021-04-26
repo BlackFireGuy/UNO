@@ -53,7 +53,7 @@ namespace ETHotfix
             self.AddComponent<GameControllerComponent, RoomConfig>(GateHelper.GetLandlordConfig(RoomLevel.Lv100));
 
             //手牌缓存组件
-            //self.AddComponent<DeskCardsCacheComponent>();
+            self.AddComponent<DeskCardsCacheComponent>();
             
             //出牌控制组件
             self.AddComponent<OrderControllerComponent>();

@@ -144,6 +144,15 @@ namespace ETModel
 	[Message(HotfixOpcode.Actor_GamerReady_Landlords)]
 	public partial class Actor_GamerReady_Landlords : IActorMessage {}
 
+	[Message(HotfixOpcode.GamerScore)]
+	public partial class GamerScore {}
+
+	[Message(HotfixOpcode.Actor_Gameover_Ntt)]
+	public partial class Actor_Gameover_Ntt : IActorMessage {}
+
+	[Message(HotfixOpcode.Actor_GamerMoneyLess_Ntt)]
+	public partial class Actor_GamerMoneyLess_Ntt : IActorMessage {}
+
 }
 namespace ETModel
 {
@@ -188,5 +197,8 @@ namespace ETModel
 		 public const ushort Actor_GamerEnterRoom_Ntt = 10037;
 		 public const ushort Actor_GamerExitRoom_Ntt = 10038;
 		 public const ushort Actor_GamerReady_Landlords = 10039;
+		 public const ushort GamerScore = 10040;
+		 public const ushort Actor_Gameover_Ntt = 10041;
+		 public const ushort Actor_GamerMoneyLess_Ntt = 10042;
 	}
 }
